@@ -143,7 +143,7 @@ function Layout(props) {
                 borderColor: '#768471',
               }}
             ></span>
-            <MyAvatar userName={decoded.name} avatar={decoded.name} />
+            <MyAvatar userName={decoded.name} avatar={decoded.name} role={decoded.role} />
           </Box>
         </Toolbar>
       </AppBar>

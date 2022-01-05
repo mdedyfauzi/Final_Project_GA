@@ -152,10 +152,7 @@ export default function ClientList() {
                           </span>
                           Accept Client
                         </MenuItem>
-                        <MenuItem
-                          onClick={handleRejectClient}
-                          // disabled={selectedItem.appointment_status === 'Pending' ? false : true}
-                        >
+                        <MenuItem onClick={handleRejectClient} disabled={selectedItem.appointment_status === 'Pending' ? false : true}>
                           <span
                             style={{
                               color: '#F67979',
